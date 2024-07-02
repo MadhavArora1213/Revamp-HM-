@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: ubuntu;
+}
+
+
+.container {
+    width: 100vw;
+    height: 105vh;
+    background-image: url("https://media.istockphoto.com/id/1439846358/photo/young-man-using-phone-while-waiting-for-a-subway-train-in-stockholm.jpg?b=1&s=170667a&w=0&k=20&c=_lcz56hA755SgRXT5d5-mMVNr6HVjnnTfUULTE9HsmE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 2vw 5vw;
+}
+
+.logo h1 {
+    font-size: 2vw;
+}
+
+.links ul {
+    display: flex;
+    gap: 3vw;
+}
+
+.links ul li {
+    list-style: none;
+    font-size: 1vw;
+}
+
+.main h1 {
+    font-size: 6vw;
+    width: 60%;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+.btn {
+    padding: 1vw;
+    background-color: black;
+    color: white;
+    border-radius: 1vw;
+    margin-left: 5vw;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.card {
+    width: 400px;
+    height: 190px;
+    /* border: 2px solid red; */
+    padding: 1vw;
+    backdrop-filter: blur(0px) saturate(67%);
+    -webkit-backdrop-filter: blur(0px) saturate(67%);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.btn1 button {
+    padding: 0.5vw 0.7vw;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 1vw;
+
+}
+
+.btn2 {
+    display: flex;
+    margin: 1vw 0;
+    justify-content: space-between;
+}
+
+.btns button {
+    padding: 1vw;
+    background-color: black;
+    border-radius: 1vw;
+    border: transparent;
+    font-size: 0.9vw;
+    color: white;
+}
+
+.text p {
+    font-size: 0.8vw;
+}
+
+.text h2 {
+    font-size: 2vw;
+}
+
+.text2 {
+    font-size: 0.8vw;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vw;
+    height: 3.5vw;
+    margin-top: 0.8vw;
+    /* color: black; */
+}
+
+.box h3,
+.box p,
+.box h4 {
+    color: #000;
+}
+
+.spotify {
+    display: flex;
+    margin: 0 1vw;
+
+}
+
+.rupees {
+    margin: 0 1vw;
+
+}
+
+.paragraphs h3 {
+    font-size: 1.2vw;
+}
+
+.paragraphs p {
+    font-size: 0.8vw;
+    margin-left: 4px;
+}
+
+.spotify i {
+    color: #000;
+    font-size: 2.5vw;
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    text-align: center;
+
+}
+
+.headings h1 {
+    font-size: 5vw;
+    margin: 0 17vw;
+}
+
+.headings p {
+    margin: 0 26vw;
+    font-size: 1.2vw;
+
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 5vw;
+    margin: 5vw 10vw;
+}
+
+.Box {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.box1 {
+    height: 200px;
+    background-color: antiquewhite;
+    border: transparent;
+}
+
+.box1 p {
+    padding: 1vw 3vw 1vw 1vw;
+    margin-bottom: 3vw;
+}
+
+.box1 h1 {
+    /* padding: 1vw 0.3vw; */
+    font-weight: 500;
+    font-size: 2.8vw;
+
+}
+
+.box2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: auto;
+    background-image: url("https://i.pinimg.com/736x/45/36/21/453621b62a17ff28a75a92e70db2e15a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: transparent;
+}
+
+.box3 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: auto;
+    background-image: url("https://img.freepik.com/free-photo/vertical-shot-interracial-woman-man-stand-opposite-each-other_273609-44314.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: transparent;
+    color: white;
+}
+
+.box3 h1 {
+    margin-bottom: 30vw;
+    text-align: left;
+    padding: 2vw;
+}
+
+.box3 p {
+    font-size: 1vw;
+    text-align: left;
+    padding: 2vw;
+
+}
+
+.box4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: auto;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/56/49/78/1000_F_456497826_DeV8YidKGDpuLcNSePCKWFDc5DoST3pS.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: transparent;
+}
+
+.box5 {
+    background-color: grey;
+    color: white;
+    text-align: left;
+}
+
+.box5 h1 {
+    padding: 1vw 2vw;
+}
+
+.box5 p {
+    font-size: 1vw;
+    font-weight: 200;
+    margin-top: 4vw;
+    padding: 1vw 2vw;
+
+}
